@@ -1,0 +1,29 @@
+#chat-box {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#messages {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#messages li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+#message-input {
+  width: 70%;
+  padding: 5px;
+}
+
+#send-button {
+  width: 25%;
+  padding: 5px;
+}
